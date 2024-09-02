@@ -1,6 +1,32 @@
 RBDL - Rigid Body Dynamics Library
 Copyright (c) 2018-2022 Martin Felis <martin@fysx.org> Felix Richter <felix.richter@informatik.uni-heidelberg.de>
 
+Python binding for PIP
+============
+`mkdir RBDL`
+
+`cd RBDL`
+
+`git clone --recursive https://github.com/XueYing126/RBDL-PIP.git`
+
+`mkdir rbdl-build`
+
+`cd rbdl-build/`
+
+`cmake -D CMAKE_BUILD_TYPE=Release ../rbdl`
+
+if error: `pip install cython`
+
+`make`
+
+Add: 
+
+`export PYTHONPATH=$PYTHONPATH:/path-to-folder/RBDL/rbdl-build/python`
+
+to ./zshrc
+
+
+
 Introduction
 ============
 
