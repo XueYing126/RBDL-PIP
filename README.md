@@ -13,7 +13,7 @@ Python binding for PIP
 
 `cd rbdl-build/`
 
-`cmake -D CMAKE_BUILD_TYPE=Release ../rbdl`
+`cmake -D CMAKE_BUILD_TYPE=Release ../RBDL-PIP`
 
 if error: `pip install cython`
 
